@@ -1,0 +1,60 @@
+.main-header-container {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.header-top-container {
+  @include flexRow;
+  @include oneNikeCurrencyFont;
+  height: 39px;
+  border-bottom: 1px solid $ltGreyBorder;
+  padding: 0 32px 0 0;
+  .header-top-left {
+    display: flex;
+    div {
+      display: flex;
+      align-items: center;
+      padding: 0 32px;
+      border-right: 1px solid $ltGreyBorder;
+    }
+  }
+  .header-top-right {
+    display: flex;
+    align-items: center;
+  }
+} // header top container end
+
+.header-bottom-container {
+  @include flexRow;
+  @include oneNikeCurrencyFont;
+  border-bottom: 1px solid $ltGreyBorder;
+  align-items: center;
+  padding: 16px 32px;
+  .header-bottom-middle {
+    @include flexRow;
+    div {
+      padding: 0 20px;
+      font-weight: bold;
+    }
+  }
+  .header-bottom-right {
+    .search-box {
+      position: relative;
+      width: 194px;
+      height: 40px;
+      border: 1px solid $ltGreyBorder;
+      padding: 3px 0 0 3px;
+      img {
+        position: absolute;
+        top: 8px;
+        left: 10px;
+      }
+      input {
+        border: none;
+        position: absolute;
+        top: 12px;
+        left: 45px;
+      }
+    }
+  }
+}

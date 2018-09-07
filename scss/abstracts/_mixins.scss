@@ -1,0 +1,8 @@
+@mixin flexRow {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin oneNikeCurrencyFont {
+  font-family: $oneNikeCurrencyFontFamily;
+  font-size: 12px;
+}
