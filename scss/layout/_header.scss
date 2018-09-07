@@ -142,6 +142,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 100px;
     div {
       // width: 100%;
       position: relative;
@@ -207,4 +208,47 @@
 
     }
   } // main promo container end
+
+  .main-bottom-filter-container {
+    @include flexRow;
+    padding: 0 12px;
+    div {
+      flex-basis: 0;
+      flex: 1 1 0;
+      padding: 0 12px;
+      &:nth-child(1) {
+        padding-left: 0;
+      }
+      &:nth-child(2) {
+        border-left: 1px solid $ltGreyBorder;
+        border-right: 1px solid $ltGreyBorder;
+      }
+      &:nth-child(4) {
+        border-left: 1px solid $ltGreyBorder;
+        padding-right: 0;
+      }
+    }
+    ul {
+      list-style-type: none;
+      li {
+        color: $liGreyFontColor;
+        margin-bottom: 5px;
+      }
+    }
+    button {
+      display: block;
+      margin: 15px auto 30px auto;
+      padding: 2px 12px;
+      border-radius: 20px;
+      background-color: #FFF;
+      border: 1px solid $ltGreyBorder;
+    }
+    .bottom-grey-spacer {
+      width: 100%;
+      height: 10px;
+      padding-left: 0;
+      padding-right: 0;
+      background-color: #EAEAEA;
+    }
+  } // main bottom filter container end
 } // main content body container end
