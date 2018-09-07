@@ -1,60 +1,96 @@
 .main-header-container {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
-}
-.header-top-container {
-  @include flexRow;
-  @include oneNikeCurrencyFont;
-  height: 39px;
-  border-bottom: 1px solid $ltGreyBorder;
-  padding: 0 32px 0 0;
-  .header-top-left {
-    display: flex;
-    div {
+  .header-top-container {
+    @include flexRow;
+    @include oneNikeCurrencyFont;
+    height: 39px;
+    border-bottom: 1px solid $ltGreyBorder;
+    padding: 0 32px 0 0;
+    .header-top-left {
+      display: flex;
+      div {
+        display: flex;
+        align-items: center;
+        padding: 0 32px;
+        border-right: 1px solid $ltGreyBorder;
+      }
+    }
+    .header-top-right {
       display: flex;
       align-items: center;
-      padding: 0 32px;
-      border-right: 1px solid $ltGreyBorder;
     }
-  }
-  .header-top-right {
-    display: flex;
-    align-items: center;
-  }
-} // header top container end
+  } // header top container end
 
-.header-bottom-container {
-  @include flexRow;
-  @include oneNikeCurrencyFont;
-  border-bottom: 1px solid $ltGreyBorder;
-  align-items: center;
-  padding: 16px 32px;
-  .header-bottom-middle {
+  .header-bottom-container {
     @include flexRow;
-    div {
-      padding: 0 20px;
-      font-weight: bold;
-    }
-  }
-  .header-bottom-right {
-    .search-box {
-      position: relative;
-      width: 194px;
-      height: 40px;
-      border: 1px solid $ltGreyBorder;
-      padding: 3px 0 0 3px;
-      img {
-        position: absolute;
-        top: 8px;
-        left: 10px;
-      }
-      input {
-        border: none;
-        position: absolute;
-        top: 12px;
-        left: 45px;
+    @include oneNikeCurrencyFont;
+    border-bottom: 1px solid $ltGreyBorder;
+    align-items: center;
+    padding: 16px 32px;
+    .header-bottom-middle {
+      @include flexRow;
+      div {
+        padding: 0 20px;
+        font-weight: bold;
       }
     }
-  }
-}
+    .header-bottom-right {
+      .search-box {
+        position: relative;
+        width: 194px;
+        height: 40px;
+        border: 1px solid $ltGreyBorder;
+        padding: 3px 0 0 3px;
+        img {
+          position: absolute;
+          top: 8px;
+          left: 10px;
+        }
+        input {
+          border: none;
+          position: absolute;
+          top: 12px;
+          left: 45px;
+        }
+      }
+    }
+  } // main bottom container end
+} // main header container end
+
+.main-content-body-container {
+  @include oneNikeCurrencyFont;
+  padding-top: 118px;
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: #f7f7f7;
+    width: 100%;
+    .banner-sub-container {
+      display: flex;
+      align-items: center;
+      div {
+        &:nth-child(1) {
+          margin-right: 80px;
+        }
+        &:nth-child(2) {
+          font-size: 14px;
+          font-weight: bold;
+          margin-right: 20px;
+        }
+        &:nth-child(3) {
+          text-align: center;
+          margin-right: 20px;
+          span {
+            display: block;
+          }
+        }
+        &:nth-child(4) {
+          text-decoration: underline;
+        }
+      }
+    }
+  } // promo container end
+} // main content body container end
