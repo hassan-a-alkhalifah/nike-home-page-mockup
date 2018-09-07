@@ -136,4 +136,75 @@
       }
     }
   } // this weeks pick container end
+
+  .main-promos-container {
+    @include oneNikeCurrencyFont;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    div {
+      // width: 100%;
+      position: relative;
+      margin-bottom: 10px;
+      .promo {
+        // display: none;
+        position: absolute;
+        h1, h3 {
+          color: #FFF;
+        }
+        h3 {
+          margin: 5px 0 20px 0;
+          font-weight: normal;
+        }
+        button {
+          background-color: #FFF;
+          border-radius: 2px;
+          padding: 12px 20px;
+          border: none;
+          font-size: 12px;
+          font-weight: 700;
+          letter-spacing: -1px;
+        }
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .promo-row-1, .promo-row-3 {
+      display: flex;
+    }
+    .promo-row-1 {
+      .promo {
+        left: 60px;
+        bottom: 60px;
+      }
+    }
+    .promo-row-2 {
+      .promo {
+        right: 60px;
+        bottom: 60px;
+        text-align: right;
+      }
+    }
+    .promo-row-3 {
+      div {
+        &:nth-child(1) {
+          padding-right: 10px;
+          .promo {
+            left: 60px;
+            bottom: 60px;
+          }
+        }
+        &:nth-child(2) {
+          .promo {
+            right: 60px;
+            bottom: 60px;
+            text-align: right;
+          }
+        }
+      }
+
+    }
+  } // main promo container end
 } // main content body container end

@@ -142,5 +142,63 @@
   height: auto;
   margin-bottom: 5px;
 }
+.main-content-body-container .main-promos-container {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main-content-body-container .main-promos-container div {
+  position: relative;
+  margin-bottom: 10px;
+}
+.main-content-body-container .main-promos-container div .promo {
+  position: absolute;
+}
+.main-content-body-container .main-promos-container div .promo h1, .main-content-body-container .main-promos-container div .promo h3 {
+  color: #FFF;
+}
+.main-content-body-container .main-promos-container div .promo h3 {
+  margin: 5px 0 20px 0;
+  font-weight: normal;
+}
+.main-content-body-container .main-promos-container div .promo button {
+  background-color: #FFF;
+  border-radius: 2px;
+  padding: 12px 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.main-content-body-container .main-promos-container div img {
+  max-width: 100%;
+  height: auto;
+}
+.main-content-body-container .main-promos-container .promo-row-1, .main-content-body-container .main-promos-container .promo-row-3 {
+  display: flex;
+}
+.main-content-body-container .main-promos-container .promo-row-1 .promo {
+  left: 60px;
+  bottom: 60px;
+}
+.main-content-body-container .main-promos-container .promo-row-2 .promo {
+  right: 60px;
+  bottom: 60px;
+  text-align: right;
+}
+.main-content-body-container .main-promos-container .promo-row-3 div:nth-child(1) {
+  padding-right: 10px;
+}
+.main-content-body-container .main-promos-container .promo-row-3 div:nth-child(1) .promo {
+  left: 60px;
+  bottom: 60px;
+}
+.main-content-body-container .main-promos-container .promo-row-3 div:nth-child(2) .promo {
+  right: 60px;
+  bottom: 60px;
+  text-align: right;
+}
 
 /*# sourceMappingURL=output.css.map */
