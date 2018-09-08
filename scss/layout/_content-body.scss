@@ -1,0 +1,204 @@
+.main-content-body-container {
+  @include oneNikeCurrencyFont;
+  padding-top: 118px;
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: #f7f7f7;
+    width: 100%;
+    .banner-sub-container {
+      display: flex;
+      align-items: center;
+      div {
+        &:nth-child(1) {
+          margin-right: 80px;
+        }
+        &:nth-child(2) {
+          font-size: 14px;
+          font-weight: bold;
+          margin-right: 20px;
+        }
+        &:nth-child(3) {
+          text-align: center;
+          margin-right: 20px;
+          span {
+            display: block;
+          }
+        }
+        &:nth-child(4) {
+          text-decoration: underline;
+        }
+      }
+    }
+  } // promo container end
+
+  .main-video-promo-container {
+    width: 100%;
+    video {
+      width: 100%;
+    }
+  } // main video promo container end
+
+  .main-content-caption-container {
+    padding-top: 40px;
+    text-align: center;
+    p {
+      margin: 20px 0 30px 0;
+    }
+    button {
+      padding: 5px 20px;
+      font-size: 9px;
+      font-weight: bold;
+      background-color: #FFF;
+      border: 1px solid #000;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+  } // main content caption container end
+
+  .this-weeks-picks-container {
+    width: 100%;
+    margin: 100px 0 40px 0;
+    .shoe-image-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .shoe-image-sub-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        div {
+          max-width: 100%;
+          margin: 5px;
+          img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  } // this weeks pick container end
+
+  .main-promos-container {
+    @include oneNikeCurrencyFont;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+    div {
+      // width: 100%;
+      position: relative;
+      margin-bottom: 10px;
+      .promo {
+        // display: none;
+        position: absolute;
+        h1, h3 {
+          color: #FFF;
+        }
+        h3 {
+          margin: 5px 0 20px 0;
+          font-weight: normal;
+        }
+        button {
+          background-color: #FFF;
+          border-radius: 2px;
+          padding: 12px 20px;
+          border: none;
+          font-size: 12px;
+          font-weight: 700;
+          letter-spacing: -1px;
+          cursor: pointer;
+        }
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .promo-row-1, .promo-row-3 {
+      display: flex;
+    }
+    .promo-row-1 {
+      .promo {
+        left: 60px;
+        bottom: 60px;
+      }
+    }
+    .promo-row-2 {
+      .promo {
+        right: 60px;
+        bottom: 60px;
+        text-align: right;
+      }
+    }
+    .promo-row-3 {
+      div {
+        &:nth-child(1) {
+          padding-right: 10px;
+          .promo {
+            left: 60px;
+            bottom: 60px;
+          }
+        }
+        &:nth-child(2) {
+          .promo {
+            right: 60px;
+            bottom: 60px;
+            text-align: right;
+          }
+        }
+      }
+
+    }
+  } // main promo container end
+
+  .main-bottom-filter-container {
+    @include flexRow;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 12px;
+    div {
+      flex-basis: 0;
+      flex: 1 1 0;
+      padding: 0 12px;
+      &:nth-child(1) {
+        padding-left: 0;
+      }
+      &:nth-child(2) {
+        border-left: 1px solid $ltGreyBorder;
+        border-right: 1px solid $ltGreyBorder;
+      }
+      &:nth-child(4) {
+        border-left: 1px solid $ltGreyBorder;
+        padding-right: 0;
+      }
+    }
+    ul {
+      list-style-type: none;
+      li {
+        color: $liGreyFontColor;
+        margin-bottom: 5px;
+        cursor: pointer;
+      }
+    }
+    button {
+      display: block;
+      margin: 15px auto 30px auto;
+      padding: 2px 12px;
+      border-radius: 20px;
+      background-color: #FFF;
+      border: 1px solid $ltGreyBorder;
+      cursor: pointer;
+    }
+    .bottom-grey-spacer {
+      width: 100%;
+      height: 10px;
+      padding-left: 0;
+      padding-right: 0;
+      background-color: #EAEAEA;
+    }
+  } // main bottom filter container end
+} // main content body container end
