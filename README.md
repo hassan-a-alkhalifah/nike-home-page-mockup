@@ -10,15 +10,15 @@ _This webpage is a responsive mockup of Nike's homepage. The website was designe
 
 _Here are some screen shots of the website goal in mind_
 
-![Desktop  Header Mockup](img/desktop-header-mockup-PNG)
-![Desktop  banner Mockup](img/desktop-banner-mockup-PNG)
-![Desktop  Promo Mockup](img/desktop-promo-mockup-PNG)
-![Desktop  Promo 2 Mockup](img/desktop-promo-2-mockup-PNG)
-![Desktop  Footer Mockup](img/desktop-footer-mockup-PNG)
-![Tablet  Promo Layout Mockup](img/tablet-promo-layout-mockup-PNG)
-![Mobile Header Mockup](img/mobile-header-mockup-PNG)
-![Mobile Promo Mockup](img/mobile-promo-mockup-PNG)
-![Mobile Footer Mockup](img/mobile-footer-mockup-PNG)
+![Desktop  Header Mockup](../img/desktop-header-mockup-PNG)
+![Desktop  banner Mockup](../img/desktop-banner-mockup-PNG)
+![Desktop  Promo Mockup](../img/desktop-promo-mockup-PNG)
+![Desktop  Promo 2 Mockup](../img/desktop-promo-2-mockup-PNG)
+![Desktop  Footer Mockup](../img/desktop-footer-mockup-PNG)
+![Tablet  Promo Layout Mockup](../img/tablet-promo-layout-mockup-PNG)
+![Mobile Header Mockup](../img/mobile-header-mockup-PNG)
+![Mobile Promo Mockup](../img/mobile-promo-mockup-PNG)
+![Mobile Footer Mockup](../img/mobile-footer-mockup-PNG)
 
 _You can view the website live [*here*](https://hassan-a-alkhalifah.github.io/nike-home-page-mockup/)_
 
