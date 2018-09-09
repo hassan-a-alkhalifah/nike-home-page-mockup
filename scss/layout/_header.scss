@@ -34,8 +34,29 @@
         align-items: center;
         padding: 0 32px;
         border-right: 1px solid $ltGreyBorder;
+        span {
+          color: #8E8E8E;
+          &:hover {
+            color: darken(#8B8B8B, 100);
+          }
+        }
         img {
           cursor: pointer;
+        }
+      }
+      .jordan-logo {
+        &:hover a {
+          &:nth-child(1) {
+            display: none;
+          }
+          &:nth-child(2) {
+            display: block;
+          }
+        }
+        a {
+          &:nth-child(2) {
+            display: none;
+          }
         }
       }
     }
