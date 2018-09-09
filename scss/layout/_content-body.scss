@@ -1,6 +1,12 @@
 .main-content-body-container {
   @include oneNikeCurrencyFont;
   padding-top: 118px;
+  @include mediaQuery(768px) {
+    padding-top: 126px;
+    .banner-container {
+      display: none;
+    }
+  }
   .banner-container {
     display: flex;
     justify-content: center;
@@ -68,6 +74,15 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        @include mediaQuery(768px) {
+          display: block!important;
+          img {
+            width: 100%;
+          }
+        }
+        @include mediaQuery(992px) {
+          flex-direction: column!important;
+        }
         div {
           max-width: 100%;
           margin: 5px;
@@ -88,6 +103,11 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 100px;
+    @include mediaQuery(768px) {
+      .promo-row-1, .promo-row-3 {
+        flex-direction: column;
+      }
+    }
     div {
       // width: 100%;
       position: relative;

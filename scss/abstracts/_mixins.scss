@@ -6,3 +6,8 @@
   font-family: $oneNikeCurrencyFontFamily;
   font-size: 12px;
 }
+@mixin mediaQuery($arg) {
+  @media screen and (max-width: $arg) {
+    @content;
+  }
+}
