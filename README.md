@@ -10,7 +10,7 @@ _This webpage is a responsive mockup of Nike's homepage. The website was designe
 
 _Here are some screen shots of the website goal in mind_
 
-![Desktop  Header Mockup](https://github.com/hassan-a-alkhalifah/nike-home-page-mockup/tree/master/img/desktop-header-mockup-PNG)
+![Desktop  Header Mockup](img/desktop-header-mockup.PNG)
 ![Desktop  banner Mockup](https://github.com/hassan-a-alkhalifah/nike-home-page-mockup/tree/master/img/desktop-banner-mockup-PNG)
 ![Desktop  Promo Mockup](https://github.com/hassan-a-alkhalifah/nike-home-page-mockup/tree/master/img/desktop-promo-mockup-PNG)
 ![Desktop  Promo 2 Mockup](https://github.com/hassan-a-alkhalifah/nike-home-page-mockup/tree/master/imgg/desktop-promo-2-mockup-PNG)
