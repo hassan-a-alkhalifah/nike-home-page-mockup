@@ -1,4 +1,4 @@
-# _Mike Home Page Mockup_
+# _Nike Home Page Mockup_
 
 #### _A responsive mockup of Nike's homepage_
 
