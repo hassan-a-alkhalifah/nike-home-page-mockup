@@ -6,19 +6,34 @@
 
 ## Description
 
-_This webpage is a responsive mockup of Nike's homepage. The website was designed with sass, Flexbox and media queries allowing a smooth transition from desktop view to mobile view._
+_This webpage is a responsive mockup of Nike's homepage, [https://www.nike.com/us/en_us/](https://www.nike.com/us/en_us/). The website was designed with sass, Flexbox and media queries, allowing a smooth transition from desktop view to mobile view. Note that Nike's home page did not have a responsive design for mobile, thus the mockup was based on standard mobile design approaches._
 
-_Here are some screen shots of the website goal in mind_
+_Here are some screen shots of the website and mockup comparisons:_
 
-![Desktop  Header Mockup](img/desktop-header-mockup-PNG)
-![Desktop  banner Mockup](img/desktop-banner-mockup-PNG)
-![Desktop  Promo Mockup](img/desktop-promo-mockup-PNG)
-![Desktop  Promo 2 Mockup](img/desktop-promo-2-mockup-PNG)
-![Desktop  Footer Mockup](img/desktop-footer-mockup-PNG)
-![Tablet  Promo Layout Mockup](img/tablet-promo-layout-mockup-PNG)
-![Mobile Header Mockup](img/mobile-header-mockup-PNG)
-![Mobile Promo Mockup](img/mobile-promo-mockup-PNG)
-![Mobile Footer Mockup](img/mobile-footer-mockup-PNG)
+**_Nike desktop header and body_**
+![Nike desktop header and body](img/nike-desktop-header-and-body.PNG)
+**_Mockup desktop header and body_**
+![Mockup desktop header and body](img/mockup-desktop-header-and-body.PNG)
+
+**_Nike desktop body and footer_**
+![Nike desktop body and footer](img/nike-desktop-body-and-footer.PNG)
+**_Mockup desktop body and footer_**
+![Mockup desktop body and footer](img/mockup-desktop-body-and-footer.PNG)
+
+**_Nike mid size body_**
+![Nike mid size body](img/nike-mid-size-body.PNG)
+**_Mockup mid size body_**
+![Mockup mid size body](img/mockup-mid-size-body.PNG)
+
+**_Nike tablet and phone header and body_**
+![Nike tablet and phone header and body](img/nike-tablet-and-phone-header-and-body.PNG)
+**_Mockup tablet and phone header and body_**
+![Mockup tablet and phone header and body](img/mockup-tablet-and-phone-header-and-body.PNG)
+
+**_Nike tablet and phone body and footer_**
+![Nike tablet and phone header and body](img/nike-tablet-and-phone-body-and-footer.PNG)
+**_Mockup tablet and phone body and footer_**
+![Mockup tablet and phone header and body](img/mockup-tablet-and-phone-body-and-footer.PNG)
 
 _You can view the website live [*here*](https://hassan-a-alkhalifah.github.io/nike-home-page-mockup/)_
 
@@ -55,6 +70,10 @@ git config --global user.email example@gmail.com_
 * _The webpage should simply open in your default web browser._
 
 ## Technologies Used
+
+* _Javascript_
+
+* _jQuery_
 
 * _HTML5_
 
