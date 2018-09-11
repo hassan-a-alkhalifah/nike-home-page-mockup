@@ -6,6 +6,16 @@
     padding-bottom: 42px;
     border-bottom: 1px solid rgb(68,68,68);
     margin-bottom: 20px;
+    @include mediaQuery(680px) {
+      position: relative;
+      .footer-top-right {
+        position: absolute;
+        bottom: 0;
+        div {
+          margin: 0 0 10px 0!important;
+        }
+      }
+    }
     .footer-top-left {
       @include flexRow;
       div {
@@ -62,6 +72,11 @@
       }
     }
     .footer-bottom-left {
+      @include mediaQuery(616px) {
+        img, span {
+          display: none;
+        }
+      }
       span {
         color: #FFF;
         margin: 0 15px;
