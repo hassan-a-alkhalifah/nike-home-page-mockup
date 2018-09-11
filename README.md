@@ -11,28 +11,51 @@ _This webpage is a responsive mockup of Nike's homepage, [https://www.nike.com/u
 _Here are some screen shots of the website and mockup comparisons:_
 
 **_Nike desktop header and body_**
+
 ![Nike desktop header and body](img/nike-desktop-header-and-body.PNG)
+
 **_Mockup desktop header and body_**
+
 ![Mockup desktop header and body](img/mockup-desktop-header-and-body.PNG)
 
+----
+
 **_Nike desktop body and footer_**
+
 ![Nike desktop body and footer](img/nike-desktop-body-and-footer.PNG)
+
 **_Mockup desktop body and footer_**
+
 ![Mockup desktop body and footer](img/mockup-desktop-body-and-footer.PNG)
 
+----
+
 **_Nike mid size body_**
+
 ![Nike mid size body](img/nike-mid-size-body.PNG)
+
 **_Mockup mid size body_**
+
 ![Mockup mid size body](img/mockup-mid-size-body.PNG)
 
+----
+
 **_Nike tablet and phone header and body_**
+
 ![Nike tablet and phone header and body](img/nike-tablet-and-phone-header-and-body.PNG)
+
 **_Mockup tablet and phone header and body_**
+
 ![Mockup tablet and phone header and body](img/mockup-tablet-and-phone-header-and-body.PNG)
 
+----
+
 **_Nike tablet and phone body and footer_**
+
 ![Nike tablet and phone header and body](img/nike-tablet-and-phone-body-and-footer.PNG)
+
 **_Mockup tablet and phone body and footer_**
+
 ![Mockup tablet and phone header and body](img/mockup-tablet-and-phone-body-and-footer.PNG)
 
 _You can view the website live [*here*](https://hassan-a-alkhalifah.github.io/nike-home-page-mockup/)_
